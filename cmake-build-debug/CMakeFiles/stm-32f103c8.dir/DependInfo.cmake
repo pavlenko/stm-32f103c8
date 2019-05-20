@@ -11,9 +11,20 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/user1/.platformio/packages/framework-cmsis/CMSIS/Core/Include"
-  "/home/user1/.platformio/packages/framework-cmsis/variants/ststm32/stm32f1/common"
-  "/home/user1/.platformio/packages/framework-cmsis/variants/stm32f1/stm32f103c8t6"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735"
+  "/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75"
   "/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"
   "/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"
   "/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"
