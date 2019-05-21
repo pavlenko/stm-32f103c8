@@ -118,6 +118,47 @@ void ClockInit2()
     while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_1); // Ожидание переключения на PLL
 }
 
+void SPI2_init()
+{
+    RCC->APB1ENR |= RCC_APB1ENR_SPI2EN;// Enable clock SPI2
+    RCC->APB2ENR |= RCC_APB2ENR_IOPBEN;// Enable clock GPIOB
+
+    GPIOB->CRH &= ~(GPIO_CRH_CNF12 | GPIO_CRH_MODE12);// Reset PB12 (CS)
+    GPIOB->CRH &= ~(GPIO_CRH_CNF13 | GPIO_CRH_MODE13);// Reset PB13 (SCK)
+    GPIOB->CRH &= ~(GPIO_CRH_CNF14 | GPIO_CRH_MODE14);// Reset PB14 (MISO)
+    GPIOB->CRH &= ~(GPIO_CRH_CNF15 | GPIO_CRH_MODE15);// Reset PB15 (MOSI)
+
+    GPIOB->CRH |= GPIO_CRH_MODE13_1 | GPIO_CRH_MODE13_0 | GPIO_CRH_CNF13_1;// PB13 - SCK: MODE5 = 0x03 (0b11); CNF5 = 0x02 (0b10)
+    GPIOB->CRH |= GPIO_CRH_CNF14_1;                                        // PB14 - MISO: MODE6 = 0x00 (0b00); CNF6 = 0x01 (0b01)
+    GPIOB->CRH |= GPIO_CRH_MODE15_1 | GPIO_CRH_MODE15_0 | GPIO_CRH_CNF15_1;// PB15 - MOSI: MODE7 = 0x03 (0b11); CNF7 = 0x02 (0b10)
+
+    // Configure SPI1
+    SPI2->CR1 &= ~SPI_CR1_DFF;      // Frame == 8bit
+    SPI2->CR1 &= ~SPI_CR1_LSBFIRST; // MSB first
+    SPI2->CR1 |= SPI_CR1_SSM;       // Program control SS
+    SPI2->CR1 |= SPI_CR1_SSI;       // SS set high
+    SPI2->CR1 |= SPI_CR1_BR_2;      // Speed == F_PCLK/32 (0b100)
+    SPI2->CR1 |= SPI_CR1_MSTR;      // Master
+    SPI2->CR1 &= ~SPI_CR1_CPOL;     // Polarity: 0
+    SPI2->CR1 &= ~SPI_CR1_CPHA;     // Phase: 0
+
+    // Enable SPI1
+    SPI1->CR1 |= SPI_CR1_SPE;
+}
+
+void SPI2_send(uint16_t data)
+{
+    while (!(SPI2->SR & SPI_SR_TXE)); // Wait for TX buffer empty
+    SPI2->DR = data;
+}
+
+uint16_t SPI2_read()
+{
+    SPI1->DR = 0; // Trigger receive
+    while (!(SPI1->SR & SPI_SR_RXNE)); // Wait for TX buffer not empty
+    return SPI2->DR;
+}
+
 //TODO configure SPI2 or SPI1
 // PB11 Data/Command selection (DC)
 // PB12 AFO Push-Pull @ 50 МГц (CS)
@@ -126,7 +167,7 @@ void ClockInit2()
 // PB15 AFO Push-Pull @ 50 МГц (MOSI)
 PCD8544 pcd8544_1 = PCD8544(
         [](uint8_t mode){ GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11; },
-        [](uint8_t data){ SPI2->DR = data; }
+        [](uint8_t data){ SPI2_send((uint16_t) data); }
 );
 
 int main()
@@ -134,6 +175,8 @@ int main()
     ClockInit2();
     SystemCoreClockUpdate();
     DWT_Init();
+
+    SPI2_init();
 
     // Enable gpioc clocking
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
@@ -148,6 +191,13 @@ int main()
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
     pcd8544_1.initialize();
+    pcd8544_1.setRow(0);
+    pcd8544_1.setCol(0);
+    pcd8544_1.setMode(PCD8544_DC_DATA);
+
+    for (int i = 0; i < 84; i++) {
+        pcd8544_1.setData(0xFF);
+    }
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;
