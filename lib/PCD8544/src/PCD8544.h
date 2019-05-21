@@ -86,6 +86,7 @@ public:
      * Select display column (0...83)
      *
      * @param col
+     * @deprecated
      */
     void setCol(uint8_t col);
 
@@ -93,8 +94,25 @@ public:
      * Select display row (0...5)
      *
      * @param row
+     * @deprecated
      */
     void setRow(uint8_t row);
+
+    /**
+     * @param x Select display column (0...83)
+     */
+    void setX(uint8_t x);
+
+    /**
+     * @param y Select display row (0...5)
+     */
+    void setY(uint8_t y);
+
+    /**
+     * @param x Select display column (0...83)
+     * @param y Select display row (0...5)
+     */
+    void setXY(uint8_t x, uint8_t y);
 
     /**
      * Set bus mode

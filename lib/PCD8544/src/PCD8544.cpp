@@ -124,9 +124,28 @@ void PCD8544::setRow(uint8_t row)
     this->_setData(0x40 | (0x3F & row));
 }
 
-void PCD8544::setMode(uint8_t mode)
+void PCD8544::setX(uint8_t x)
 {
     this->_setMode(PCD8544_DC_COMMAND);
+    this->_setData(0x80U | (0x07U & x));
+}
+
+void PCD8544::setY(uint8_t y)
+{
+    this->_setMode(PCD8544_DC_COMMAND);
+    this->_setData(0x40U | (0x3FU & y));
+}
+
+void PCD8544::setXY(uint8_t x, uint8_t y)
+{
+    this->_setMode(PCD8544_DC_COMMAND);
+    this->_setData(0x80U | (0x07U & x));
+    this->_setData(0x40U | (0x3FU & y));
+}
+
+void PCD8544::setMode(uint8_t mode)
+{
+    this->_setMode(mode);
 }
 
 void PCD8544::setData(uint8_t data)

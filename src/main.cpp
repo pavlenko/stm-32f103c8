@@ -191,10 +191,9 @@ int main()
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
     pcd8544_1.initialize();
-    pcd8544_1.setRow(0);
-    pcd8544_1.setCol(0);
-    pcd8544_1.setMode(PCD8544_DC_DATA);
+    pcd8544_1.setXY(0, 0);
 
+    pcd8544_1.setMode(PCD8544_DC_DATA);
     for (int i = 0; i < 84; i++) {
         pcd8544_1.setData(0xFF);
     }
