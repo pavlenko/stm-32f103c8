@@ -70,10 +70,122 @@ CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.s"
 	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\PCD8544\src\PCD8544.cpp -o CMakeFiles\stm-32f103c8.dir\lib\PCD8544\src\PCD8544.cpp.s
 
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj: ../lib/lcd5110/Samples/main_hw_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_1.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_1.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_1.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_1.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_1.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_1.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj: ../lib/lcd5110/Samples/main_hw_2_geom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_2_geom.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_2_geom.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_2_geom.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_2_geom.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_2_geom.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_2_geom.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj: ../lib/lcd5110/Samples/main_hw_3_2lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_3_2lcd.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_3_2lcd.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_3_2lcd.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_3_2lcd.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_3_2lcd.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_3_2lcd.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj: ../lib/lcd5110/Samples/main_hw_4_fmt_bmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_4_fmt_bmp.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj: ../lib/lcd5110/Samples/main_hw_5_windows.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_5_windows.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_5_windows.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_5_windows.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_5_windows.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Samples\main_hw_5_windows.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Samples\main_hw_5_windows.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj: ../lib/lcd5110/Src/lcd5110.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj: ../lib/lcd5110/Src/lcd5110_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_hal.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_hal.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_hal.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_hal.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_hal.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_hal.c.s
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj: CMakeFiles/stm-32f103c8.dir/includes_C.rsp
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj: ../lib/lcd5110/Src/lcd5110_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_ll.c.obj   -c D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_ll.c
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.i"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_ll.c > CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_ll.c.i
+
+CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.s"
+	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\PROJECTS\pavlenko\stm-32f103c8\lib\lcd5110\Src\lcd5110_ll.c -o CMakeFiles\stm-32f103c8.dir\lib\lcd5110\Src\lcd5110_ll.c.s
+
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj: CMakeFiles/stm-32f103c8.dir/includes_CXX.rsp
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj"
 	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stm-32f103c8.dir\src\main.cpp.obj -c D:\PROJECTS\pavlenko\stm-32f103c8\src\main.cpp
 
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.i: cmake_force
@@ -87,7 +199,7 @@ CMakeFiles/stm-32f103c8.dir/src/main.cpp.s: cmake_force
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj: CMakeFiles/stm-32f103c8.dir/includes_CXX.rsp
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj: ../src/spi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj"
 	C:\Users\MASTER\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stm-32f103c8.dir\src\spi.cpp.obj -c D:\PROJECTS\pavlenko\stm-32f103c8\src\spi.cpp
 
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.i: cmake_force
@@ -101,6 +213,14 @@ CMakeFiles/stm-32f103c8.dir/src/spi.cpp.s: cmake_force
 # Object files for target stm-32f103c8
 stm__32f103c8_OBJECTS = \
 "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj" \
+"CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj" \
 "CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj" \
 "CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj"
 
@@ -108,13 +228,21 @@ stm__32f103c8_OBJECTS = \
 stm__32f103c8_EXTERNAL_OBJECTS =
 
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj
+stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/src/main.cpp.obj
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/src/spi.cpp.obj
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/build.make
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/linklibs.rsp
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/objects1.rsp
 stm-32f103c8.exe: CMakeFiles/stm-32f103c8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable stm-32f103c8.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\PROJECTS\pavlenko\stm-32f103c8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable stm-32f103c8.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\stm-32f103c8.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

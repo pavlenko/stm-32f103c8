@@ -235,6 +235,42 @@
 		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/font6x8.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110_hal.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110_ll.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_1.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_2_geom.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_3_2lcd.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_5_windows.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110_hal.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110_ll.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
 		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/src/main.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>

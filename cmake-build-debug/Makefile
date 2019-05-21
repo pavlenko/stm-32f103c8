@@ -279,6 +279,222 @@ lib/PCD8544/src/PCD8544.cpp.s:
 	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.s
 .PHONY : lib/PCD8544/src/PCD8544.cpp.s
 
+lib/lcd5110/Samples/main_hw_1.obj: lib/lcd5110/Samples/main_hw_1.c.obj
+
+.PHONY : lib/lcd5110/Samples/main_hw_1.obj
+
+# target to build an object file
+lib/lcd5110/Samples/main_hw_1.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.obj
+.PHONY : lib/lcd5110/Samples/main_hw_1.c.obj
+
+lib/lcd5110/Samples/main_hw_1.i: lib/lcd5110/Samples/main_hw_1.c.i
+
+.PHONY : lib/lcd5110/Samples/main_hw_1.i
+
+# target to preprocess a source file
+lib/lcd5110/Samples/main_hw_1.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.i
+.PHONY : lib/lcd5110/Samples/main_hw_1.c.i
+
+lib/lcd5110/Samples/main_hw_1.s: lib/lcd5110/Samples/main_hw_1.c.s
+
+.PHONY : lib/lcd5110/Samples/main_hw_1.s
+
+# target to generate assembly for a file
+lib/lcd5110/Samples/main_hw_1.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.s
+.PHONY : lib/lcd5110/Samples/main_hw_1.c.s
+
+lib/lcd5110/Samples/main_hw_2_geom.obj: lib/lcd5110/Samples/main_hw_2_geom.c.obj
+
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.obj
+
+# target to build an object file
+lib/lcd5110/Samples/main_hw_2_geom.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.obj
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.c.obj
+
+lib/lcd5110/Samples/main_hw_2_geom.i: lib/lcd5110/Samples/main_hw_2_geom.c.i
+
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.i
+
+# target to preprocess a source file
+lib/lcd5110/Samples/main_hw_2_geom.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.i
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.c.i
+
+lib/lcd5110/Samples/main_hw_2_geom.s: lib/lcd5110/Samples/main_hw_2_geom.c.s
+
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.s
+
+# target to generate assembly for a file
+lib/lcd5110/Samples/main_hw_2_geom.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.s
+.PHONY : lib/lcd5110/Samples/main_hw_2_geom.c.s
+
+lib/lcd5110/Samples/main_hw_3_2lcd.obj: lib/lcd5110/Samples/main_hw_3_2lcd.c.obj
+
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.obj
+
+# target to build an object file
+lib/lcd5110/Samples/main_hw_3_2lcd.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.obj
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.c.obj
+
+lib/lcd5110/Samples/main_hw_3_2lcd.i: lib/lcd5110/Samples/main_hw_3_2lcd.c.i
+
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.i
+
+# target to preprocess a source file
+lib/lcd5110/Samples/main_hw_3_2lcd.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.i
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.c.i
+
+lib/lcd5110/Samples/main_hw_3_2lcd.s: lib/lcd5110/Samples/main_hw_3_2lcd.c.s
+
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.s
+
+# target to generate assembly for a file
+lib/lcd5110/Samples/main_hw_3_2lcd.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.s
+.PHONY : lib/lcd5110/Samples/main_hw_3_2lcd.c.s
+
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.obj: lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj
+
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.obj
+
+# target to build an object file
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.obj
+
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.i: lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i
+
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.i
+
+# target to preprocess a source file
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i
+
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.s: lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s
+
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.s
+
+# target to generate assembly for a file
+lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s
+.PHONY : lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s
+
+lib/lcd5110/Samples/main_hw_5_windows.obj: lib/lcd5110/Samples/main_hw_5_windows.c.obj
+
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.obj
+
+# target to build an object file
+lib/lcd5110/Samples/main_hw_5_windows.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.obj
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.c.obj
+
+lib/lcd5110/Samples/main_hw_5_windows.i: lib/lcd5110/Samples/main_hw_5_windows.c.i
+
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.i
+
+# target to preprocess a source file
+lib/lcd5110/Samples/main_hw_5_windows.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.i
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.c.i
+
+lib/lcd5110/Samples/main_hw_5_windows.s: lib/lcd5110/Samples/main_hw_5_windows.c.s
+
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.s
+
+# target to generate assembly for a file
+lib/lcd5110/Samples/main_hw_5_windows.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.s
+.PHONY : lib/lcd5110/Samples/main_hw_5_windows.c.s
+
+lib/lcd5110/Src/lcd5110.obj: lib/lcd5110/Src/lcd5110.c.obj
+
+.PHONY : lib/lcd5110/Src/lcd5110.obj
+
+# target to build an object file
+lib/lcd5110/Src/lcd5110.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.obj
+.PHONY : lib/lcd5110/Src/lcd5110.c.obj
+
+lib/lcd5110/Src/lcd5110.i: lib/lcd5110/Src/lcd5110.c.i
+
+.PHONY : lib/lcd5110/Src/lcd5110.i
+
+# target to preprocess a source file
+lib/lcd5110/Src/lcd5110.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.i
+.PHONY : lib/lcd5110/Src/lcd5110.c.i
+
+lib/lcd5110/Src/lcd5110.s: lib/lcd5110/Src/lcd5110.c.s
+
+.PHONY : lib/lcd5110/Src/lcd5110.s
+
+# target to generate assembly for a file
+lib/lcd5110/Src/lcd5110.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.s
+.PHONY : lib/lcd5110/Src/lcd5110.c.s
+
+lib/lcd5110/Src/lcd5110_hal.obj: lib/lcd5110/Src/lcd5110_hal.c.obj
+
+.PHONY : lib/lcd5110/Src/lcd5110_hal.obj
+
+# target to build an object file
+lib/lcd5110/Src/lcd5110_hal.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.obj
+.PHONY : lib/lcd5110/Src/lcd5110_hal.c.obj
+
+lib/lcd5110/Src/lcd5110_hal.i: lib/lcd5110/Src/lcd5110_hal.c.i
+
+.PHONY : lib/lcd5110/Src/lcd5110_hal.i
+
+# target to preprocess a source file
+lib/lcd5110/Src/lcd5110_hal.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.i
+.PHONY : lib/lcd5110/Src/lcd5110_hal.c.i
+
+lib/lcd5110/Src/lcd5110_hal.s: lib/lcd5110/Src/lcd5110_hal.c.s
+
+.PHONY : lib/lcd5110/Src/lcd5110_hal.s
+
+# target to generate assembly for a file
+lib/lcd5110/Src/lcd5110_hal.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.s
+.PHONY : lib/lcd5110/Src/lcd5110_hal.c.s
+
+lib/lcd5110/Src/lcd5110_ll.obj: lib/lcd5110/Src/lcd5110_ll.c.obj
+
+.PHONY : lib/lcd5110/Src/lcd5110_ll.obj
+
+# target to build an object file
+lib/lcd5110/Src/lcd5110_ll.c.obj:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.obj
+.PHONY : lib/lcd5110/Src/lcd5110_ll.c.obj
+
+lib/lcd5110/Src/lcd5110_ll.i: lib/lcd5110/Src/lcd5110_ll.c.i
+
+.PHONY : lib/lcd5110/Src/lcd5110_ll.i
+
+# target to preprocess a source file
+lib/lcd5110/Src/lcd5110_ll.c.i:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.i
+.PHONY : lib/lcd5110/Src/lcd5110_ll.c.i
+
+lib/lcd5110/Src/lcd5110_ll.s: lib/lcd5110/Src/lcd5110_ll.c.s
+
+.PHONY : lib/lcd5110/Src/lcd5110_ll.s
+
+# target to generate assembly for a file
+lib/lcd5110/Src/lcd5110_ll.c.s:
+	$(MAKE) -f CMakeFiles\stm-32f103c8.dir\build.make CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.s
+.PHONY : lib/lcd5110/Src/lcd5110_ll.c.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -355,6 +571,30 @@ help:
 	@echo ... lib/PCD8544/src/PCD8544.obj
 	@echo ... lib/PCD8544/src/PCD8544.i
 	@echo ... lib/PCD8544/src/PCD8544.s
+	@echo ... lib/lcd5110/Samples/main_hw_1.obj
+	@echo ... lib/lcd5110/Samples/main_hw_1.i
+	@echo ... lib/lcd5110/Samples/main_hw_1.s
+	@echo ... lib/lcd5110/Samples/main_hw_2_geom.obj
+	@echo ... lib/lcd5110/Samples/main_hw_2_geom.i
+	@echo ... lib/lcd5110/Samples/main_hw_2_geom.s
+	@echo ... lib/lcd5110/Samples/main_hw_3_2lcd.obj
+	@echo ... lib/lcd5110/Samples/main_hw_3_2lcd.i
+	@echo ... lib/lcd5110/Samples/main_hw_3_2lcd.s
+	@echo ... lib/lcd5110/Samples/main_hw_4_fmt_bmp.obj
+	@echo ... lib/lcd5110/Samples/main_hw_4_fmt_bmp.i
+	@echo ... lib/lcd5110/Samples/main_hw_4_fmt_bmp.s
+	@echo ... lib/lcd5110/Samples/main_hw_5_windows.obj
+	@echo ... lib/lcd5110/Samples/main_hw_5_windows.i
+	@echo ... lib/lcd5110/Samples/main_hw_5_windows.s
+	@echo ... lib/lcd5110/Src/lcd5110.obj
+	@echo ... lib/lcd5110/Src/lcd5110.i
+	@echo ... lib/lcd5110/Src/lcd5110.s
+	@echo ... lib/lcd5110/Src/lcd5110_hal.obj
+	@echo ... lib/lcd5110/Src/lcd5110_hal.i
+	@echo ... lib/lcd5110/Src/lcd5110_hal.s
+	@echo ... lib/lcd5110/Src/lcd5110_ll.obj
+	@echo ... lib/lcd5110/Src/lcd5110_ll.i
+	@echo ... lib/lcd5110/Src/lcd5110_ll.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
