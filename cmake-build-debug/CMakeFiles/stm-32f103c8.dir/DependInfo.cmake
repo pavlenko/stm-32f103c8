@@ -34,6 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "C:/Users/MASTER/.platformio/packages/tool-unity"
   "../include"
   "../src"
+  "../lib/PCD8544/src"
   )
 
 # Targets to which this target links.

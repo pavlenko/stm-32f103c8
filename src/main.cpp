@@ -1,6 +1,7 @@
 #define F_CPU_INTERNAL 1000000U
 
 #include "stm32f1xx.h"
+#include "PCD8544.h"
 
 void delay__us(uint32_t us)
 {
@@ -117,6 +118,14 @@ void ClockInit2()
     while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_1); // Ожидание переключения на PLL
 }
 
+void PCD8544_SetMode(uint8_t mode)
+{}
+
+void PCD8544_SetData(uint8_t data)
+{}
+
+PCD8544 lcd = PCD8544(PCD8544_SetMode, PCD8544_SetData);
+
 int main()
 {
     ClockInit2();
@@ -135,8 +144,8 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
-    // Set as output in push-pull, cnf == 00
-    //GPIOC->CRH |= GPIO_CRH_CNF13_1;
+    lcd.initialize();
+    //TODO simple lcd send data command
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;

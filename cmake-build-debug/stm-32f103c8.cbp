@@ -146,6 +146,7 @@
 					<Add directory="C:/Users/MASTER/.platformio/packages/tool-unity"/>
 					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/include"/>
 					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -189,6 +190,7 @@
 					<Add directory="C:/Users/MASTER/.platformio/packages/tool-unity"/>
 					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/include"/>
 					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
