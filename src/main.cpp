@@ -118,13 +118,16 @@ void ClockInit2()
     while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_1); // Ожидание переключения на PLL
 }
 
-void PCD8544_SetMode(uint8_t mode)
-{}
-
-void PCD8544_SetData(uint8_t data)
-{}
-
-PCD8544 lcd = PCD8544(PCD8544_SetMode, PCD8544_SetData);
+//TODO configure SPI2 or SPI1
+// PB11 Data/Command selection (DC)
+// PB12 AFO Push-Pull @ 50 МГц (CS)
+// PB13 AFO Push-Pull @ 50 МГц (SCK)
+// PB14 AFI Pull-up (MISO)
+// PB15 AFO Push-Pull @ 50 МГц (MOSI)
+PCD8544 pcd8544_1 = PCD8544(
+        [](uint8_t mode){ GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11; },
+        [](uint8_t data){ SPI2->DR = data; }
+);
 
 int main()
 {
@@ -144,25 +147,7 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
-    //TODO maybe add chip select logic
-    PCD8544_Connection_t PCD8544_Connection = {
-        .reset = [](){
-            GPIOB->BSRR = GPIO_BSRR_BR11;
-            for (int i = 100; i > 0; i--);
-            GPIOB->BSRR = GPIO_BSRR_BS11;
-        },
-        .setMode = [](uint8_t mode){
-            //TODO check proper pin
-            GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11;
-        },
-        .setData = [](uint8_t data){
-            //TODO SPI lib
-            SPI1->DR = data;
-        }
-    };
-
-    lcd.initialize();
-    //TODO simple lcd send data command
+    pcd8544_1.initialize();
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;

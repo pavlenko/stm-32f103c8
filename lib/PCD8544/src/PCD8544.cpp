@@ -62,7 +62,6 @@ void PCD8544::initialize()
     this->_setFunctionSet();
 
     this->_setDisplayMode(PCD8544_DISPLAY_MODE_NORMAL);
-    //TODO clear
 }
 
 void PCD8544::setPowerDown(bool enabled)
@@ -123,5 +122,15 @@ void PCD8544::setRow(uint8_t row)
 {
     this->_setMode(PCD8544_DC_COMMAND);
     this->_setData(0x40 | (0x3F & row));
+}
+
+void PCD8544::setMode(uint8_t mode)
+{
+    this->_setMode(PCD8544_DC_COMMAND);
+}
+
+void PCD8544::setData(uint8_t data)
+{
+    this->_setData(data);
 }
 

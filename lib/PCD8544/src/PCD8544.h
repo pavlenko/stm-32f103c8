@@ -95,6 +95,20 @@ public:
      * @param row
      */
     void setRow(uint8_t row);
+
+    /**
+     * Set bus mode
+     *
+     * @param mode
+     */
+    void setMode(uint8_t mode);
+
+    /**
+     * Send byte
+     *
+     * @param data
+     */
+    void setData(uint8_t data);
 };
 
 #endif //PCD8544_H
