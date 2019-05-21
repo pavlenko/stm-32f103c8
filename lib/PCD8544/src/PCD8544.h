@@ -15,6 +15,12 @@ typedef enum PCD8544_DisplayMode_t {
     PCD8544_DISPLAY_MODE_INVERTED  = 5,
 } PCD8544_DisplayMode_t;
 
+typedef struct {
+    void (* reset) ();
+    void (* setMode) (uint8_t);
+    void (* setData) (uint8_t);
+} PCD8544_Connection_t;
+
 class PCD8544 {
 private:
     bool _powerDown            = false;

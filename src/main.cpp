@@ -144,6 +144,23 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
+    //TODO maybe add chip select logic
+    PCD8544_Connection_t PCD8544_Connection = {
+        .reset = [](){
+            GPIOB->BSRR = GPIO_BSRR_BR11;
+            for (int i = 100; i > 0; i--);
+            GPIOB->BSRR = GPIO_BSRR_BS11;
+        },
+        .setMode = [](uint8_t mode){
+            //TODO check proper pin
+            GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11;
+        },
+        .setData = [](uint8_t data){
+            //TODO SPI lib
+            SPI1->DR = data;
+        }
+    };
+
     lcd.initialize();
     //TODO simple lcd send data command
 
