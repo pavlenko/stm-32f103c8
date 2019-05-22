@@ -253,6 +253,60 @@ PLATFORMIO_TEST/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_TEST.dir/build.make CMakeFiles/PLATFORMIO_TEST.dir/build
 .PHONY : PLATFORMIO_TEST/fast
 
+lib/LCD/examples/lcd.o: lib/LCD/examples/lcd.cpp.o
+
+.PHONY : lib/LCD/examples/lcd.o
+
+# target to build an object file
+lib/LCD/examples/lcd.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.o
+.PHONY : lib/LCD/examples/lcd.cpp.o
+
+lib/LCD/examples/lcd.i: lib/LCD/examples/lcd.cpp.i
+
+.PHONY : lib/LCD/examples/lcd.i
+
+# target to preprocess a source file
+lib/LCD/examples/lcd.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.i
+.PHONY : lib/LCD/examples/lcd.cpp.i
+
+lib/LCD/examples/lcd.s: lib/LCD/examples/lcd.cpp.s
+
+.PHONY : lib/LCD/examples/lcd.s
+
+# target to generate assembly for a file
+lib/LCD/examples/lcd.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.s
+.PHONY : lib/LCD/examples/lcd.cpp.s
+
+lib/LCD/src/LCD.o: lib/LCD/src/LCD.cpp.o
+
+.PHONY : lib/LCD/src/LCD.o
+
+# target to build an object file
+lib/LCD/src/LCD.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.o
+.PHONY : lib/LCD/src/LCD.cpp.o
+
+lib/LCD/src/LCD.i: lib/LCD/src/LCD.cpp.i
+
+.PHONY : lib/LCD/src/LCD.i
+
+# target to preprocess a source file
+lib/LCD/src/LCD.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.i
+.PHONY : lib/LCD/src/LCD.cpp.i
+
+lib/LCD/src/LCD.s: lib/LCD/src/LCD.cpp.s
+
+.PHONY : lib/LCD/src/LCD.s
+
+# target to generate assembly for a file
+lib/LCD/src/LCD.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.s
+.PHONY : lib/LCD/src/LCD.cpp.s
+
 lib/PCD8544/src/PCD8544.o: lib/PCD8544/src/PCD8544.cpp.o
 
 .PHONY : lib/PCD8544/src/PCD8544.o
@@ -731,6 +785,12 @@ help:
 	@echo "... PLATFORMIO_UPLOAD"
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_TEST"
+	@echo "... lib/LCD/examples/lcd.o"
+	@echo "... lib/LCD/examples/lcd.i"
+	@echo "... lib/LCD/examples/lcd.s"
+	@echo "... lib/LCD/src/LCD.o"
+	@echo "... lib/LCD/src/LCD.i"
+	@echo "... lib/LCD/src/LCD.s"
 	@echo "... lib/PCD8544/src/PCD8544.o"
 	@echo "... lib/PCD8544/src/PCD8544.i"
 	@echo "... lib/PCD8544/src/PCD8544.s"

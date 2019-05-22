@@ -234,6 +234,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/examples/lcd.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/library.json">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCDFont5x7.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/doc/PCD8544.pdf">
 			<Option target="stm-32f103c8"/>
 		</Unit>
