@@ -128,9 +128,10 @@ void SPI2_init()
     GPIOB->CRH &= ~(GPIO_CRH_CNF14 | GPIO_CRH_MODE14);// Reset PB14 (MISO)
     GPIOB->CRH &= ~(GPIO_CRH_CNF15 | GPIO_CRH_MODE15);// Reset PB15 (MOSI)
 
-    GPIOB->CRH |= GPIO_CRH_MODE13_1 | GPIO_CRH_MODE13_0 | GPIO_CRH_CNF13_1;// PB13 - SCK: MODE5 = 0x03 (0b11); CNF5 = 0x02 (0b10)
-    GPIOB->CRH |= GPIO_CRH_CNF14_1;                                        // PB14 - MISO: MODE6 = 0x00 (0b00); CNF6 = 0x01 (0b01)
-    GPIOB->CRH |= GPIO_CRH_MODE15_1 | GPIO_CRH_MODE15_0 | GPIO_CRH_CNF15_1;// PB15 - MOSI: MODE7 = 0x03 (0b11); CNF7 = 0x02 (0b10)
+    GPIOB->CRH |= GPIO_CRH_MODE12_1;                                       // PB12 - CS: MODE = 0x02 (0b10); CNF = 0x00 (0b00)
+    GPIOB->CRH |= GPIO_CRH_MODE13_1 | GPIO_CRH_MODE13_0 | GPIO_CRH_CNF13_1;// PB13 - SCK: MODE = 0x03 (0b11); CNF = 0x02 (0b10)
+    GPIOB->CRH |= GPIO_CRH_CNF14_1;                                        // PB14 - MISO: MODE = 0x00 (0b00); CNF = 0x01 (0b01)
+    GPIOB->CRH |= GPIO_CRH_MODE15_1 | GPIO_CRH_MODE15_0 | GPIO_CRH_CNF15_1;// PB15 - MOSI: MODE = 0x03 (0b11); CNF = 0x02 (0b10)
 
     // Configure SPI1
     SPI2->CR1 &= ~SPI_CR1_DFF;      // Frame == 8bit
@@ -142,8 +143,8 @@ void SPI2_init()
     SPI2->CR1 &= ~SPI_CR1_CPOL;     // Polarity: 0
     SPI2->CR1 &= ~SPI_CR1_CPHA;     // Phase: 0
 
-    // Enable SPI1
-    SPI1->CR1 |= SPI_CR1_SPE;
+    // Enable SPI2
+    SPI2->CR1 |= SPI_CR1_SPE;
 }
 
 void SPI2_send(uint16_t data)
@@ -154,8 +155,8 @@ void SPI2_send(uint16_t data)
 
 uint16_t SPI2_read()
 {
-    SPI1->DR = 0; // Trigger receive
-    while (!(SPI1->SR & SPI_SR_RXNE)); // Wait for TX buffer not empty
+    SPI2->DR = 0; // Trigger receive
+    while (!(SPI2->SR & SPI_SR_RXNE)); // Wait for TX buffer not empty
     return SPI2->DR;
 }
 
@@ -190,6 +191,8 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
+    GPIOB->BSRR = GPIO_BSRR_BR12;
+
     pcd8544_1.initialize();
     pcd8544_1.setXY(0, 0);
 
@@ -197,6 +200,8 @@ int main()
     for (int i = 0; i < 84; i++) {
         pcd8544_1.setData(0xFF);
     }
+
+    GPIOB->BSRR = GPIO_BSRR_BS12;
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;

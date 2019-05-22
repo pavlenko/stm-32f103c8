@@ -20,7 +20,7 @@ void PCD8544::_setExtendedInstruction(bool enabled)
 
 void PCD8544::_setOperationVoltage(uint8_t vop)
 {
-    this->_setData(0x80 | (0x7F & vop));
+    this->_setData(0x80u | (0x7Fu & vop));
 }
 
 void PCD8544::_setTemperatureCoefficient(uint8_t tc)
@@ -55,13 +55,13 @@ void PCD8544::initialize()
     this->_setFunctionSet();
 
     this->_setOperationVoltage(0x30);
-    this->_setTemperatureCoefficient(0x03);
-    this->_setBias(0x04);
+    //this->_setTemperatureCoefficient(0x03);
+    //this->_setBias(0x04);
 
-    this->_setExtendedInstruction(false);
-    this->_setFunctionSet();
+    //this->_setExtendedInstruction(false);
+    //this->_setFunctionSet();
 
-    this->_setDisplayMode(PCD8544_DISPLAY_MODE_NORMAL);
+    //this->_setDisplayMode(PCD8544_DISPLAY_MODE_NORMAL);
 }
 
 void PCD8544::setPowerDown(bool enabled)
