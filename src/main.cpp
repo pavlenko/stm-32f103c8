@@ -179,8 +179,7 @@ PCD8544 pcd8544_1 = PCD8544(
 );
 
 uint8_t buffer[504];
-LCD_config_t config = {.width = 84, .height = 48};
-LCD_handle_t handle = {.config = config, .buffer = buffer};
+LCD_handle_t handle = {.width = 84, .height = 48, .buffer = buffer};
 
 int main()
 {
@@ -190,8 +189,8 @@ int main()
 
     SPI2_init();
 
-    //TODO LCD functions
-    LCD_test(handle);
+    LCD_clear(handle);
+    LCD_string(handle, "HELLO", 0, 0, false);
 
     // Enable gpioc clocking
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
