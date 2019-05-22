@@ -1,7 +1,7 @@
 #include "LCD.h"
 #include "LCDFont5x7.h"
 
-#include <avr/pgmspace.h>
+//#include <avr/pgmspace.h>
 #include <stdlib.h>
 
 #define LCD_MIN(_a_, _b_) (_a_ > _b_ ? _b_ : _a_)
@@ -30,7 +30,7 @@ void LCD::string(const char *string, uint8_t x, uint8_t y, bool wrap) {
         index = (uint16_t) (x + (y / 8) * _width);
 
         for (uint8_t i = 0; i < 5; i++) {
-            uint8_t column = pgm_read_byte(&LCDFont5x7[(*string) - 0x20][i]);
+            uint8_t column = LCDFont5x7[(*string) - 0x20][i];
 
             if (index + i < _size) {
                 if (shift == 0) {
@@ -184,7 +184,7 @@ void LCD::bitmap(const uint8_t *bitmap, uint8_t x, uint8_t y, uint8_t width, uin
                 //byte <<= 1;
                 byte >>= 1;
             } else {
-                byte = pgm_read_byte(&bitmap[j * byteWidth + i / 8]);
+                byte = bitmap[j * byteWidth + i / 8];
             }
 
             //this->pixel(x + i, y, (byte & 0x80) == 0);
@@ -207,7 +207,7 @@ void LCD::bitmap(uint8_t x0, uint8_t y0, LCDBitmap_t bitmap) {
                     byte = bitmap.msb ? byte << 1 : byte >> 1;
                 } else {
                     // Load bitmap next byte
-                    byte = pgm_read_byte(&(bitmap.data)[y * scanY + x / 8]);
+                    byte = (bitmap.data)[y * scanY + x / 8];
                 }
 
                 if (bitmap.msb) {
@@ -225,7 +225,7 @@ void LCD::bitmap(uint8_t x0, uint8_t y0, LCDBitmap_t bitmap) {
                     byte = bitmap.msb ? byte << 1 : byte >> 1;
                 } else {
                     // Load bitmap next byte
-                    byte = pgm_read_byte(&(bitmap.data)[x * scanX + y / 8]);
+                    byte = (bitmap.data)[x * scanX + y / 8];
                 }
 
                 if (bitmap.msb) {

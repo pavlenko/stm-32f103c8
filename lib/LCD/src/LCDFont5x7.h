@@ -13,9 +13,9 @@ __'_":┼╪_%_<_____''""•--_T_>____
 */
 
 #include <stdint.h>
-#include <avr/pgmspace.h>
+//#include <avr/pgmspace.h>
 
-const static uint8_t LCDFont5x7[][5] PROGMEM {
+const static uint8_t LCDFont5x7[][5] {
     // 0x00 ... 0x19 SKIP
 
     // 0x20 ... 0x39

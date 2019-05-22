@@ -307,6 +307,33 @@ lib/LCD/src/LCD.cpp.s:
 	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.s
 .PHONY : lib/LCD/src/LCD.cpp.s
 
+lib/LCD/src/LCD2.o: lib/LCD/src/LCD2.cpp.o
+
+.PHONY : lib/LCD/src/LCD2.o
+
+# target to build an object file
+lib/LCD/src/LCD2.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD2.cpp.o
+.PHONY : lib/LCD/src/LCD2.cpp.o
+
+lib/LCD/src/LCD2.i: lib/LCD/src/LCD2.cpp.i
+
+.PHONY : lib/LCD/src/LCD2.i
+
+# target to preprocess a source file
+lib/LCD/src/LCD2.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD2.cpp.i
+.PHONY : lib/LCD/src/LCD2.cpp.i
+
+lib/LCD/src/LCD2.s: lib/LCD/src/LCD2.cpp.s
+
+.PHONY : lib/LCD/src/LCD2.s
+
+# target to generate assembly for a file
+lib/LCD/src/LCD2.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD2.cpp.s
+.PHONY : lib/LCD/src/LCD2.cpp.s
+
 lib/PCD8544/src/PCD8544.o: lib/PCD8544/src/PCD8544.cpp.o
 
 .PHONY : lib/PCD8544/src/PCD8544.o
@@ -791,6 +818,9 @@ help:
 	@echo "... lib/LCD/src/LCD.o"
 	@echo "... lib/LCD/src/LCD.i"
 	@echo "... lib/LCD/src/LCD.s"
+	@echo "... lib/LCD/src/LCD2.o"
+	@echo "... lib/LCD/src/LCD2.i"
+	@echo "... lib/LCD/src/LCD2.s"
 	@echo "... lib/PCD8544/src/PCD8544.o"
 	@echo "... lib/PCD8544/src/PCD8544.i"
 	@echo "... lib/PCD8544/src/PCD8544.s"

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD2.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o"

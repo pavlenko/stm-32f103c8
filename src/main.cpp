@@ -2,6 +2,7 @@
 
 #include "stm32f1xx.h"
 #include "PCD8544.h"
+#include "LCD2.h"
 
 void delay__us(uint32_t us)
 {
@@ -177,6 +178,10 @@ PCD8544 pcd8544_1 = PCD8544(
         [](uint8_t data){ SPI2_send((uint16_t) data); }
 );
 
+uint8_t buffer[504];
+LCD_config_t config = {.width = 84, .height = 48};
+LCD_handle_t handle = {.config = config, .buffer = buffer};
+
 int main()
 {
     ClockInit2();
@@ -184,6 +189,9 @@ int main()
     DWT_Init();
 
     SPI2_init();
+
+    //TODO LCD functions
+    LCD_test(handle);
 
     // Enable gpioc clocking
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;

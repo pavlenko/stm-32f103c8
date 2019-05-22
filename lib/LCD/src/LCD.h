@@ -1,7 +1,7 @@
 #ifndef LCD_H
 #define LCD_H
 
-#include <avr/pgmspace.h>
+//#include <avr/pgmspace.h>
 #include <stdint.h>
 
 typedef struct {

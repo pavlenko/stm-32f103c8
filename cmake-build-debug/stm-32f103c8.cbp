@@ -59,6 +59,7 @@
 					<Add directory="/home/user1/.platformio/packages/tool-unity"/>
 					<Add directory="/home/user1/PROJECTS/stm-32f103c8/include"/>
 					<Add directory="/home/user1/PROJECTS/stm-32f103c8/src"/>
+					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -107,6 +108,7 @@
 					<Add directory="/home/user1/.platformio/packages/tool-unity"/>
 					<Add directory="/home/user1/PROJECTS/stm-32f103c8/include"/>
 					<Add directory="/home/user1/PROJECTS/stm-32f103c8/src"/>
+					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -244,6 +246,12 @@
 			<Option target="stm-32f103c8"/>
 		</Unit>
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD2.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD2.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCDFont5x7.h">

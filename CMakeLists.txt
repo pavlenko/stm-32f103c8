@@ -3,6 +3,7 @@ project(stm-32f103c8)
 
 include(CMakeListsPrivate.txt)
 
+include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/LCD/src")
 include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/PCD8544/src")
 
 add_custom_target(
