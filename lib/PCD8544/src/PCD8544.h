@@ -26,6 +26,7 @@ private:
     bool _powerDown            = false;
     bool _extendedInstruction  = false;
 
+    void (* _reset) ();
     void (* _setMode) (uint8_t);
     void (* _setData) (uint8_t);
 
@@ -40,10 +41,11 @@ public:
     /**
      * Instantiate driver with specific interface adapter functions
      *
+     * @param reset
      * @param setMode
      * @param setData
      */
-    PCD8544(void (* setMode) (uint8_t), void (* setData) (uint8_t));
+    PCD8544(void (* reset) (), void (* setMode) (uint8_t), void (* setData) (uint8_t));
 
     void initialize();
 

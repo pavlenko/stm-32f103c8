@@ -167,6 +167,12 @@ uint16_t SPI2_read()
 // PB14 AFI Pull-up (MISO)
 // PB15 AFO Push-Pull @ 50 МГц (MOSI)
 PCD8544 pcd8544_1 = PCD8544(
+        [](){
+            GPIOB->BSRR = GPIO_BSRR_BR10;
+            volatile int i = 100;
+            while (--i){}
+            GPIOB->BSRR = GPIO_BSRR_BS10;
+        },
         [](uint8_t mode){ GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11; },
         [](uint8_t data){ SPI2_send((uint16_t) data); }
 );
@@ -190,6 +196,10 @@ int main()
 
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
+
+    GPIOB->CRH &= ~(GPIO_CRH_CNF10|GPIO_CRH_MODE10);
+    GPIOB->CRH |= GPIO_CRH_MODE10_1;
+    GPIOB->BSRR = GPIO_BSRR_BS10;
 
     GPIOB->BSRR = GPIO_BSRR_BR12;
 
