@@ -54,9 +54,9 @@ void PCD8544::initialize()
     this->_setExtendedInstruction(true);
     this->_setFunctionSet();
 
-    this->_setOperationVoltage(0x30);
-    this->_setTemperatureCoefficient(0x03);
-    this->_setBias(0x04);
+    this->_setOperationVoltage(0x40);
+    this->_setTemperatureCoefficient(2);
+    this->_setBias(4);
 
     this->_setExtendedInstruction(false);
     this->_setFunctionSet();

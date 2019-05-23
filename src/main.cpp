@@ -139,7 +139,7 @@ void SPI2_init()
     SPI2->CR1 &= ~SPI_CR1_LSBFIRST; // MSB first
     SPI2->CR1 |= SPI_CR1_SSM;       // Program control SS
     SPI2->CR1 |= SPI_CR1_SSI;       // SS set high
-    SPI2->CR1 |= SPI_CR1_BR_2;      // Speed == F_PCLK/32 (0b100)
+    SPI2->CR1 |= SPI_CR1_BR_2 | SPI_CR1_BR_1;      // Speed == F_PCLK/64 (0b100)
     SPI2->CR1 |= SPI_CR1_MSTR;      // Master
     SPI2->CR1 &= ~SPI_CR1_CPOL;     // Polarity: 0
     SPI2->CR1 &= ~SPI_CR1_CPHA;     // Phase: 0
@@ -152,6 +152,7 @@ void SPI2_send(uint16_t data)
 {
     while (!(SPI2->SR & SPI_SR_TXE)); // Wait for TX buffer empty
     SPI2->DR = data;
+    while (!(SPI2->SR & SPI_SR_TXE));
 }
 
 uint16_t SPI2_read()
@@ -170,7 +171,7 @@ uint16_t SPI2_read()
 PCD8544 pcd8544_1 = PCD8544(
         [](){
             GPIOB->BSRR = GPIO_BSRR_BR10;
-            volatile int i = 100;
+            volatile int i = 10000;
             while (--i){}
             GPIOB->BSRR = GPIO_BSRR_BS10;
         },
@@ -189,8 +190,8 @@ int main()
 
     SPI2_init();
 
-    LCD_clear(handle);
-    LCD_string(handle, "HELLO", 0, 0, false);
+    //LCD_clear(handle);
+    //LCD_string(handle, "HELLO", 0, 0, false);
 
     // Enable gpioc clocking
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
@@ -214,8 +215,19 @@ int main()
     pcd8544_1.setXY(0, 0);
 
     pcd8544_1.setMode(PCD8544_DC_DATA);
-    for (int i = 0; i < 84; i++) {
-        pcd8544_1.setData(0xFF);
+    for (int i = 0; i < (84 * 7); i++) {
+        pcd8544_1.setData(0x00);
+    }
+
+    GPIOB->BSRR = GPIO_BSRR_BS12;
+    delay_us(1000000);
+    GPIOB->BSRR = GPIO_BSRR_BR12;
+
+    pcd8544_1.setXY(0, 0);
+
+    pcd8544_1.setMode(PCD8544_DC_DATA);
+    for (int i = 0; i < (84 * 6); i++) {
+        pcd8544_1.setData(0x80);
     }
 
     GPIOB->BSRR = GPIO_BSRR_BS12;
