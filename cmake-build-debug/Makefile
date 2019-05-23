@@ -739,6 +739,33 @@ lib/PCD8544/src/PCD8544_2.cpp.s:
 	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.s
 .PHONY : lib/PCD8544/src/PCD8544_2.cpp.s
 
+lib/PCD8544/src/PCD8544_3.o: lib/PCD8544/src/PCD8544_3.cpp.o
+
+.PHONY : lib/PCD8544/src/PCD8544_3.o
+
+# target to build an object file
+lib/PCD8544/src/PCD8544_3.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o
+.PHONY : lib/PCD8544/src/PCD8544_3.cpp.o
+
+lib/PCD8544/src/PCD8544_3.i: lib/PCD8544/src/PCD8544_3.cpp.i
+
+.PHONY : lib/PCD8544/src/PCD8544_3.i
+
+# target to preprocess a source file
+lib/PCD8544/src/PCD8544_3.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.i
+.PHONY : lib/PCD8544/src/PCD8544_3.cpp.i
+
+lib/PCD8544/src/PCD8544_3.s: lib/PCD8544/src/PCD8544_3.cpp.s
+
+.PHONY : lib/PCD8544/src/PCD8544_3.s
+
+# target to generate assembly for a file
+lib/PCD8544/src/PCD8544_3.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.s
+.PHONY : lib/PCD8544/src/PCD8544_3.cpp.s
+
 lib/SPI/examples/SPI/src/SPI.o: lib/SPI/examples/SPI/src/SPI.cpp.o
 
 .PHONY : lib/SPI/examples/SPI/src/SPI.o
@@ -1244,6 +1271,9 @@ help:
 	@echo "... lib/PCD8544/src/PCD8544_2.o"
 	@echo "... lib/PCD8544/src/PCD8544_2.i"
 	@echo "... lib/PCD8544/src/PCD8544_2.s"
+	@echo "... lib/PCD8544/src/PCD8544_3.o"
+	@echo "... lib/PCD8544/src/PCD8544_3.i"
+	@echo "... lib/PCD8544/src/PCD8544_3.s"
 	@echo "... lib/SPI/examples/SPI/src/SPI.o"
 	@echo "... lib/SPI/examples/SPI/src/SPI.i"
 	@echo "... lib/SPI/examples/SPI/src/SPI.s"

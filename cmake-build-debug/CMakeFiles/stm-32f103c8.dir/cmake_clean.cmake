@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o"
   "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o"
   "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o"

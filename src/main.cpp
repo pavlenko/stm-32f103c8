@@ -1,8 +1,9 @@
 #define F_CPU_INTERNAL 1000000U
 
 #include "stm32f1xx.h"
-#include "PCD8544.h"
+//#include "PCD8544.h"
 #include "PCD8544_2.h"
+//#include "PCD8544_3.h"
 
 void delay__us(uint32_t us)
 {
@@ -197,6 +198,24 @@ PCD8544_t lcd = {
     },
 };
 
+/*PCD8544_3 lcd2 = PCD8544_3(
+        [](){
+            GPIOB->BSRR = GPIO_BSRR_BR10;
+            volatile int i = 10000;
+            while (--i){}
+            GPIOB->BSRR = GPIO_BSRR_BS10;
+        },
+        [](uint8_t mode, uint8_t data){
+            GPIOB->BSRR = GPIO_BSRR_BR12;// Clear CS
+
+            GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11;// Set/Clear DC
+
+            SPI2_send((uint16_t) data);
+
+            GPIOB->BSRR = GPIO_BSRR_BS12;// Set CS
+        }
+);*/
+
 int main()
 {
     ClockInit2();
@@ -250,6 +269,10 @@ int main()
     PCD8544_initialize(&lcd);
     PCD8544_clear(&lcd);
     PCD8544_string(&lcd, "HELLO");
+
+    /*lcd2.initialize();
+    lcd2.clear();
+    lcd2.string("HELLO");*/
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;

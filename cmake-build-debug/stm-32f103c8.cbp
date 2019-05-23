@@ -365,6 +365,12 @@
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_2.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/examples/BarometricPressureSensor/BarometricPressureSensor.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>

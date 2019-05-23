@@ -291,9 +291,22 @@ CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.s"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_2.cpp -o CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.s
 
+CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
+CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o: ../lib/PCD8544/src/PCD8544_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o"
+	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp
+
+CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.i"
+	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp > CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.i
+
+CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.s"
+	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp -o CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.s
+
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o: ../lib/SPI/examples/SPI/src/SPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.cpp
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o: ../lib/SPI/examples/ref/pcf8813.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/pcf8813.c
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o: ../lib/SPI/examples/ref/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/spi.c
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o: ../lib/SPI/examples/spi-master.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-master.cpp
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o: ../lib/SPI/examples/spi-slave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-slave.cpp
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.o: ../lib/SPI/src/SPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/lib/SPI/src/SPI.cpp
 
 CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/stm-32f103c8.dir/lib/SPI/src/SPI.cpp.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.o: ../lib/lcd5110/Samples/main_hw_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_1.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_1.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.o: ../lib/lcd5110/Samples/main_hw_2_geom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_2_geom.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.i: cmake_force
@@ -397,7 +410,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_2_geom.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.o: ../lib/lcd5110/Samples/main_hw_3_2lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_3_2lcd.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.i: cmake_force
@@ -410,7 +423,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_3_2lcd.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.o: ../lib/lcd5110/Samples/main_hw_4_fmt_bmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.i: cmake_force
@@ -423,7 +436,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c.s: cmake_for
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.o: ../lib/lcd5110/Samples/main_hw_5_windows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_5_windows.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.i: cmake_force
@@ -436,7 +449,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Samples/main_hw_5_windows.c.s: cmake_for
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.o: ../lib/lcd5110/Src/lcd5110.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.i: cmake_force
@@ -449,7 +462,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.o: ../lib/lcd5110/Src/lcd5110_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110_hal.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.i: cmake_force
@@ -462,7 +475,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_hal.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.o: ../lib/lcd5110/Src/lcd5110_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.o   -c /home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110_ll.c
 
 CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.i: cmake_force
@@ -475,7 +488,7 @@ CMakeFiles/stm-32f103c8.dir/lib/lcd5110/Src/lcd5110_ll.c.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/main.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/src/main.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/src/main.cpp
 
 CMakeFiles/stm-32f103c8.dir/src/main.cpp.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/stm-32f103c8.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o: CMakeFiles/stm-32f103c8.dir/flags.make
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o: ../src/spi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o"
 	/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o -c /home/user1/PROJECTS/stm-32f103c8/src/spi.cpp
 
 CMakeFiles/stm-32f103c8.dir/src/spi.cpp.i: cmake_force
@@ -519,6 +532,7 @@ stm__32f103c8_OBJECTS = \
 "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o" \
 "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.o" \
 "CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.o" \
+"CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o" \
 "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o" \
 "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o" \
 "CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o" \
@@ -557,6 +571,7 @@ stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/LCD5110_
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.o
+stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/pcf8813.c.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/ref/spi.c.o
@@ -575,7 +590,7 @@ stm-32f103c8: CMakeFiles/stm-32f103c8.dir/src/main.cpp.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/src/spi.cpp.o
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/build.make
 stm-32f103c8: CMakeFiles/stm-32f103c8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable stm-32f103c8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable stm-32f103c8"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stm-32f103c8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

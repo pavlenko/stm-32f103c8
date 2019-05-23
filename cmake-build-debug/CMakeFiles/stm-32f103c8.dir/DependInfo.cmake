@@ -66,6 +66,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_2.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_2.cpp.o"
+  "/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/PCD8544/src/PCD8544_3.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/SPI/src/SPI.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-master.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-master.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-slave.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/SPI/examples/spi-slave.cpp.o"
