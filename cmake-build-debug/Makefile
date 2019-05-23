@@ -496,6 +496,195 @@ lib/PCD8544/examples/main.cpp.s:
 	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/examples/main.cpp.s
 .PHONY : lib/PCD8544/examples/main.cpp.s
 
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.o: lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.o
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.o
+
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.i: lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.i
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.i
+
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.s: lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.s
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c.s
+
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.o: lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.o
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.o
+
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.i: lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.i
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.i
+
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.s: lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.s
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp.s
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.o: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.o
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.o
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.i: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.i
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.i
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.s: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.s
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c.s
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.o: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.o
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.o
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.i: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.i
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.i
+
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.s: lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.s
+.PHONY : lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c.s
+
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.o: lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.o
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.o
+
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.i: lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.i
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.i
+
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.s: lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.s
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c.s
+
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.o: lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.o
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.o
+
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.i: lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.i
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.i
+
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.s: lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.s
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp.s
+
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.o: lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.o
+
+# target to build an object file
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.o
+
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.i: lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.i
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.i
+
+# target to preprocess a source file
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.i
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.i
+
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.s: lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.s
+
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.s
+
+# target to generate assembly for a file
+lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.s
+.PHONY : lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c.s
+
 lib/PCD8544/src/PCD8544.o: lib/PCD8544/src/PCD8544.cpp.o
 
 .PHONY : lib/PCD8544/src/PCD8544.o
@@ -1028,6 +1217,27 @@ help:
 	@echo "... lib/PCD8544/examples/main.o"
 	@echo "... lib/PCD8544/examples/main.i"
 	@echo "... lib/PCD8544/examples/main.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.s"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.o"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.i"
+	@echo "... lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.s"
 	@echo "... lib/PCD8544/src/PCD8544.o"
 	@echo "... lib/PCD8544/src/PCD8544.i"
 	@echo "... lib/PCD8544/src/PCD8544.s"

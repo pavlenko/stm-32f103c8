@@ -284,6 +284,75 @@
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/examples/main.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.pdf">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LICENSE.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/LCD5110_Bitmap.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_NumberFonts/LCD5110_NumberFonts.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_ViewFont/LCD5110_ViewFont.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/keywords.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/version.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.pdf">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LICENSE.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/LCD5110_Graph_Demo.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Scrolling_Text/LCD5110_Scrolling_Text.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_TinyFont_View/LCD5110_TinyFont_View.pde">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/keywords.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/version.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
 		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
