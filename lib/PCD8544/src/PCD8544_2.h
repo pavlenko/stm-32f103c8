@@ -115,7 +115,14 @@ static const uint8_t PCD8544_Font[][5] =
     ,{0x78, 0x46, 0x41, 0x46, 0x78} // 7f →
 };
 
+typedef struct {
+    void (* reset) ();
+    void (* write) (uint8_t mode, uint8_t data);
+} PCD8544_t;
+
 void PCD8544_initialize();
+
+void PCD8544_write(PCD8544_t *lcd, uint8_t mode, uint8_t data);
 
 void PCD8544_write(uint8_t mode, uint8_t data);
 

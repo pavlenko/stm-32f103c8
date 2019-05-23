@@ -26,6 +26,11 @@ void PCD8544_initialize()
 //    LcdWrite(LCD_C, 0x0C);
 }
 
+void PCD8544_write(PCD8544_t *lcd, uint8_t mode, uint8_t data)
+{
+    lcd->write(mode, data);
+}
+
 void PCD8544_write(uint8_t mode, uint8_t data)
 {
 //    digitalWrite(PIN_DC, dc);
