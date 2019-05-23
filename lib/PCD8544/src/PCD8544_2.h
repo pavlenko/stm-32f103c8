@@ -120,18 +120,14 @@ typedef struct {
     void (* write) (uint8_t mode, uint8_t data);
 } PCD8544_t;
 
-void PCD8544_initialize();
+void PCD8544_initialize(PCD8544_t *lcd);
 
-void PCD8544_write(PCD8544_t *lcd, uint8_t mode, uint8_t data);
+void PCD8544_setXY(PCD8544_t *lcd, uint8_t x, uint8_t y);
 
-void PCD8544_write(uint8_t mode, uint8_t data);
+void PCD8544_clear(PCD8544_t *lcd);
 
-void PCD8544_setXY(uint8_t x, uint8_t y);
+void PCD8544_character(PCD8544_t *lcd, char character);
 
-void PCD8544_clear();
-
-void PCD8544_character(char character);
-
-void PCD8544_string(const char *characters);
+void PCD8544_string(PCD8544_t *lcd, const char *characters);
 
 #endif //PCD8544_2_H
