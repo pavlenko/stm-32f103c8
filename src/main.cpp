@@ -2,7 +2,7 @@
 
 #include "stm32f1xx.h"
 #include "PCD8544.h"
-#include "LCD2.h"
+#include "PCD8544_2.h"
 
 void delay__us(uint32_t us)
 {
@@ -168,7 +168,7 @@ uint16_t SPI2_read()
 // PB13 AFO Push-Pull @ 50 МГц (SCK)
 // PB14 AFI Pull-up (MISO)
 // PB15 AFO Push-Pull @ 50 МГц (MOSI)
-PCD8544 pcd8544_1 = PCD8544(
+/*PCD8544 pcd8544_1 = PCD8544(
         [](){
             GPIOB->BSRR = GPIO_BSRR_BR10;
             volatile int i = 10000;
@@ -177,10 +177,25 @@ PCD8544 pcd8544_1 = PCD8544(
         },
         [](uint8_t mode){ GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11; },
         [](uint8_t data){ SPI2_send((uint16_t) data); }
-);
+);*/
 
-uint8_t buffer[504];
-LCD_handle_t handle = {.width = 84, .height = 48, .buffer = buffer};
+PCD8544_t lcd = {
+    .reset = [](){
+        GPIOB->BSRR = GPIO_BSRR_BR10;
+        volatile int i = 10000;
+        while (--i){}
+        GPIOB->BSRR = GPIO_BSRR_BS10;
+    },
+    .write = [](uint8_t mode, uint8_t data){
+        GPIOB->BSRR = GPIO_BSRR_BR12;// Clear CS
+
+        GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11;// Set/Clear DC
+
+        SPI2_send((uint16_t) data);
+
+        GPIOB->BSRR = GPIO_BSRR_BS12;// Set CS
+    },
+};
 
 int main()
 {
@@ -205,7 +220,7 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
-    GPIOB->CRH &= ~(GPIO_CRH_CNF10|GPIO_CRH_MODE10);
+    /*GPIOB->CRH &= ~(GPIO_CRH_CNF10|GPIO_CRH_MODE10);
     GPIOB->CRH |= GPIO_CRH_MODE10_1;
     GPIOB->BSRR = GPIO_BSRR_BS10;
 
@@ -230,7 +245,11 @@ int main()
         pcd8544_1.setData(0x80);
     }
 
-    GPIOB->BSRR = GPIO_BSRR_BS12;
+    GPIOB->BSRR = GPIO_BSRR_BS12;*/
+
+    PCD8544_initialize(&lcd);
+    PCD8544_clear(&lcd);
+    PCD8544_string(&lcd, "HELLO");
 
     while (true) {
         GPIOC->BSRR = GPIO_BSRR_BS13;
