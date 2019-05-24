@@ -253,6 +253,141 @@ PLATFORMIO_TEST/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_TEST.dir/build.make CMakeFiles/PLATFORMIO_TEST.dir/build
 .PHONY : PLATFORMIO_TEST/fast
 
+lib/Adafruit_GFX/Adafruit_GFX.o: lib/Adafruit_GFX/Adafruit_GFX.cpp.o
+
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.o
+
+# target to build an object file
+lib/Adafruit_GFX/Adafruit_GFX.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_GFX.cpp.o
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.cpp.o
+
+lib/Adafruit_GFX/Adafruit_GFX.i: lib/Adafruit_GFX/Adafruit_GFX.cpp.i
+
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.i
+
+# target to preprocess a source file
+lib/Adafruit_GFX/Adafruit_GFX.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_GFX.cpp.i
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.cpp.i
+
+lib/Adafruit_GFX/Adafruit_GFX.s: lib/Adafruit_GFX/Adafruit_GFX.cpp.s
+
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.s
+
+# target to generate assembly for a file
+lib/Adafruit_GFX/Adafruit_GFX.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_GFX.cpp.s
+.PHONY : lib/Adafruit_GFX/Adafruit_GFX.cpp.s
+
+lib/Adafruit_GFX/Adafruit_SPITFT.o: lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o
+
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.o
+
+# target to build an object file
+lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o
+
+lib/Adafruit_GFX/Adafruit_SPITFT.i: lib/Adafruit_GFX/Adafruit_SPITFT.cpp.i
+
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.i
+
+# target to preprocess a source file
+lib/Adafruit_GFX/Adafruit_SPITFT.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_SPITFT.cpp.i
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.cpp.i
+
+lib/Adafruit_GFX/Adafruit_SPITFT.s: lib/Adafruit_GFX/Adafruit_SPITFT.cpp.s
+
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.s
+
+# target to generate assembly for a file
+lib/Adafruit_GFX/Adafruit_SPITFT.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_SPITFT.cpp.s
+.PHONY : lib/Adafruit_GFX/Adafruit_SPITFT.cpp.s
+
+lib/Adafruit_GFX/fontconvert/fontconvert.o: lib/Adafruit_GFX/fontconvert/fontconvert.c.o
+
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.o
+
+# target to build an object file
+lib/Adafruit_GFX/fontconvert/fontconvert.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/fontconvert/fontconvert.c.o
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.c.o
+
+lib/Adafruit_GFX/fontconvert/fontconvert.i: lib/Adafruit_GFX/fontconvert/fontconvert.c.i
+
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.i
+
+# target to preprocess a source file
+lib/Adafruit_GFX/fontconvert/fontconvert.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/fontconvert/fontconvert.c.i
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.c.i
+
+lib/Adafruit_GFX/fontconvert/fontconvert.s: lib/Adafruit_GFX/fontconvert/fontconvert.c.s
+
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.s
+
+# target to generate assembly for a file
+lib/Adafruit_GFX/fontconvert/fontconvert.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/fontconvert/fontconvert.c.s
+.PHONY : lib/Adafruit_GFX/fontconvert/fontconvert.c.s
+
+lib/Adafruit_GFX/glcdfont.o: lib/Adafruit_GFX/glcdfont.c.o
+
+.PHONY : lib/Adafruit_GFX/glcdfont.o
+
+# target to build an object file
+lib/Adafruit_GFX/glcdfont.c.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/glcdfont.c.o
+.PHONY : lib/Adafruit_GFX/glcdfont.c.o
+
+lib/Adafruit_GFX/glcdfont.i: lib/Adafruit_GFX/glcdfont.c.i
+
+.PHONY : lib/Adafruit_GFX/glcdfont.i
+
+# target to preprocess a source file
+lib/Adafruit_GFX/glcdfont.c.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/glcdfont.c.i
+.PHONY : lib/Adafruit_GFX/glcdfont.c.i
+
+lib/Adafruit_GFX/glcdfont.s: lib/Adafruit_GFX/glcdfont.c.s
+
+.PHONY : lib/Adafruit_GFX/glcdfont.s
+
+# target to generate assembly for a file
+lib/Adafruit_GFX/glcdfont.c.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/glcdfont.c.s
+.PHONY : lib/Adafruit_GFX/glcdfont.c.s
+
+lib/Adafruit_PCD8544/Adafruit_PCD8544.o: lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o
+
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.o
+
+# target to build an object file
+lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o
+
+lib/Adafruit_PCD8544/Adafruit_PCD8544.i: lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.i
+
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.i
+
+# target to preprocess a source file
+lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.i:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.i
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.i
+
+lib/Adafruit_PCD8544/Adafruit_PCD8544.s: lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.s
+
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.s
+
+# target to generate assembly for a file
+lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.s:
+	$(MAKE) -f CMakeFiles/stm-32f103c8.dir/build.make CMakeFiles/stm-32f103c8.dir/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.s
+.PHONY : lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.s
+
 lib/LCD/examples/lcd.o: lib/LCD/examples/lcd.cpp.o
 
 .PHONY : lib/LCD/examples/lcd.o
@@ -1217,6 +1352,21 @@ help:
 	@echo "... PLATFORMIO_UPLOAD"
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_TEST"
+	@echo "... lib/Adafruit_GFX/Adafruit_GFX.o"
+	@echo "... lib/Adafruit_GFX/Adafruit_GFX.i"
+	@echo "... lib/Adafruit_GFX/Adafruit_GFX.s"
+	@echo "... lib/Adafruit_GFX/Adafruit_SPITFT.o"
+	@echo "... lib/Adafruit_GFX/Adafruit_SPITFT.i"
+	@echo "... lib/Adafruit_GFX/Adafruit_SPITFT.s"
+	@echo "... lib/Adafruit_GFX/fontconvert/fontconvert.o"
+	@echo "... lib/Adafruit_GFX/fontconvert/fontconvert.i"
+	@echo "... lib/Adafruit_GFX/fontconvert/fontconvert.s"
+	@echo "... lib/Adafruit_GFX/glcdfont.o"
+	@echo "... lib/Adafruit_GFX/glcdfont.i"
+	@echo "... lib/Adafruit_GFX/glcdfont.s"
+	@echo "... lib/Adafruit_PCD8544/Adafruit_PCD8544.o"
+	@echo "... lib/Adafruit_PCD8544/Adafruit_PCD8544.i"
+	@echo "... lib/Adafruit_PCD8544/Adafruit_PCD8544.s"
 	@echo "... lib/LCD/examples/lcd.o"
 	@echo "... lib/LCD/examples/lcd.i"
 	@echo "... lib/LCD/examples/lcd.s"

@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_GFX.cpp.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/fontconvert/fontconvert.c.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/glcdfont.c.o"
+  "CMakeFiles/stm-32f103c8.dir/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.o"
   "CMakeFiles/stm-32f103c8.dir/lib/LCD/src/Fonts/font12.c.o"
   "CMakeFiles/stm-32f103c8.dir/lib/LCD/src/Fonts/font16.c.o"

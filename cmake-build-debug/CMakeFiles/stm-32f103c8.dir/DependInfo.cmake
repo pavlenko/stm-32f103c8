@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/fontconvert/fontconvert.c" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/fontconvert/fontconvert.c.o"
+  "/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/glcdfont.c" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/glcdfont.c.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font12.c" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/src/Fonts/font12.c.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font16.c" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/src/Fonts/font16.c.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font20.c" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/src/Fonts/font20.c.o"
@@ -55,9 +57,14 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/user1/.platformio/packages/tool-unity"
   "../include"
   "../src"
+  "../lib/Adafruit_GFX"
+  "../lib/Adafruit_PCD8544"
   "../lib/LCD/src"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_GFX.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_GFX.cpp.o"
+  "/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/Adafruit_GFX/Adafruit_SPITFT.cpp.o"
+  "/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/examples/lcd.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/examples/lcd.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD.cpp.o"
   "/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD2.cpp" "/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/CMakeFiles/stm-32f103c8.dir/lib/LCD/src/LCD2.cpp.o"
@@ -103,6 +110,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/user1/.platformio/packages/tool-unity"
   "../include"
   "../src"
+  "../lib/Adafruit_GFX"
+  "../lib/Adafruit_PCD8544"
   "../lib/LCD/src"
   )
 
