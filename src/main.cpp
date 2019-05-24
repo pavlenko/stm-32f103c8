@@ -5,6 +5,21 @@
 #include "PCD8544_2.h"
 //#include "PCD8544_3.h"
 
+volatile uint32_t ticks_delay = 0;
+
+void SysTick_Initialize() {
+    SysTick_Config(SystemCoreClock/1000);
+}
+
+void SysTick_Handler() {
+    ticks_delay++;
+}
+
+void delay_ms(uint32_t millis) {
+    uint32_t start = ticks_delay;
+    while ((ticks_delay - start) < millis);
+}
+
 void delay__us(uint32_t us)
 {
     uint32_t ticks = (uint32_t) ((float) us * ((float) SystemCoreClock / (float) 1000000));
