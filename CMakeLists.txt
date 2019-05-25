@@ -7,6 +7,7 @@ include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/Adafruit_GFX")
 include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/Adafruit_PCD8544")
 include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/LCD/src")
 include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/PCD8544/src")
+include_directories("${CMAKE_CURRENT_LIST_DIR}/lib/PCF8812/src")
 
 add_custom_target(
     PLATFORMIO_BUILD ALL

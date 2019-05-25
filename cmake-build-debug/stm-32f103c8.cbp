@@ -8,692 +8,774 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stm-32f103c8">
-				<Option output="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/stm-32f103c8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
-					<Add directory="/home/user1/.platformio/packages/tool-unity"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/include"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 stm-32f103c8"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stm-32f103c8/fast">
-				<Option output="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/stm-32f103c8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735"/>
-					<Add directory="/home/user1/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
-					<Add directory="/home/user1/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
-					<Add directory="/home/user1/.platformio/packages/tool-unity"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/include"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/src"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544"/>
-					<Add directory="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 stm-32f103c8/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_UPLOADFS">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_PROGRAM">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_BUILD_VERBOSE">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_UPDATE_ALL">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_BUILD">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_MONITOR">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PLATFORMIO_UPLOAD">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_CLEAN">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD_VERBOSE">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOAD">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_MONITOR">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PLATFORMIO_TEST">
-				<Option working_dir="/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user1/PROJECTS/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_PROGRAM">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPDATE_ALL">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stm-32f103c8">
+				<Option output="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/stm-32f103c8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/src"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/tool-unity"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/include"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 stm-32f103c8"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stm-32f103c8/fast">
+				<Option output="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/stm-32f103c8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/Common"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/src"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ak4343"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/cs43l22"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/hx8347d"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9320"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/ili9325"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/lis302dl"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/spfd5408"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/st7735"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stlm75"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/framework-stm32cube/f1/Drivers/BSP/Components/stmpe811"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="C:/Users/MASTER/.platformio/packages/tool-unity"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/include"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/src"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544"/>
+					<Add directory="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 stm-32f103c8/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/pavlenko/stm-32f103c8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/.gitignore">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/.gitignore">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/.travis.yml">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/.travis.yml">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_GFX.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Adafruit_GFX.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_GFX.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Adafruit_GFX.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT_Macros.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Adafruit_SPITFT_Macros.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMono9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBold9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoBoldOblique9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeMonoOblique9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSans9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBold9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansBoldOblique9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSansOblique9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerif9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBold9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifBoldItalic9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic12pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic12pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic18pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic18pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic24pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic24pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic9pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/FreeSerifItalic9pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/Org_01.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/Org_01.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/Picopixel.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/Picopixel.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/Tiny3x3a2pt7b.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/Tiny3x3a2pt7b.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/Fonts/TomThumb.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/Fonts/TomThumb.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/README.md">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/README.md">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/examples/mock_ili9341/mock_ili9341.ino">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/examples/mock_ili9341/mock_ili9341.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/fontconvert/fontconvert.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/fontconvert/fontconvert.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/fontconvert/fontconvert_win.md">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/fontconvert/fontconvert_win.md">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/fontconvert/makefonts.sh">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/fontconvert/makefonts.sh">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/gfxfont.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/gfxfont.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/glcdfont.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/glcdfont.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/library.properties">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/library.properties">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_GFX/license.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_GFX/license.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/.github/ISSUE_TEMPLATE.md">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/.github/ISSUE_TEMPLATE.md">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/.github/PULL_REQUEST_TEMPLATE.md">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/.github/PULL_REQUEST_TEMPLATE.md">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/Adafruit_PCD8544.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/Adafruit_PCD8544.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/Adafruit_PCD8544.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/README.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/README.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/examples/pcdtest/pcdtest.ino">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/examples/pcdtest/pcdtest.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/library.properties">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/library.properties">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/Adafruit_PCD8544/license.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/Adafruit_PCD8544/license.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/examples/lcd.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/examples/lcd.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/library.json">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/library.json">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/Release_Notes.html">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/Release_Notes.html">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font12.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/font12.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font16.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/font16.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font20.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/font20.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font24.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/font24.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/font8.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/font8.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/Fonts/fonts.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/Fonts/fonts.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/LCD.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/LCD.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD2.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/LCD2.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCD2.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/LCD2.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/LCD/src/LCDFont5x7.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/LCD/src/LCDFont5x7.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/doc/PCD8544.pdf">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/doc/PCD8544.pdf">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/examples/main.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/examples/main.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/DefaultFonts.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.pdf">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LCD5110_Basic.pdf">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LICENSE.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/LICENSE.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/LCD5110_Bitmap.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/LCD5110_Bitmap.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/arduino_logo.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_Bitmap/oshw_logo.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_NumberFonts/LCD5110_NumberFonts.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_NumberFonts/LCD5110_NumberFonts.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_ViewFont/LCD5110_ViewFont.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/examples/LCD5110_ViewFont/LCD5110_ViewFont.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/keywords.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/keywords.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/version.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Basic/version.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/DefaultFonts.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.pdf">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LCD5110_Graph.pdf">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LICENSE.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/LICENSE.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/Graphics.c">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/LCD5110_Graph_Demo.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Graph_Demo/LCD5110_Graph_Demo.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Scrolling_Text/LCD5110_Scrolling_Text.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_Scrolling_Text/LCD5110_Scrolling_Text.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_TinyFont_View/LCD5110_TinyFont_View.pde">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/examples/LCD5110_TinyFont_View/LCD5110_TinyFont_View.pde">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/keywords.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/keywords.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/version.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/ref/LCD5110_Graph/version.txt">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_2.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544_2.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_2.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544_2.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544_3.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/PCD8544/src/PCD8544_3.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCD8544/src/PCD8544_3.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/examples/BarometricPressureSensor/BarometricPressureSensor.ino">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/.gitignore">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/examples/DigitalPotControl/DigitalPotControl.ino">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/PCF8812_new.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/keywords.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/PCF8812_new.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/library.properties">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/README.md">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/cels.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/dog.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/pcf8813.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/drop.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/pcf8813.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/e_e.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/spi.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Graph_Test/Graph_Test.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/ref/spi.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Lion_BMP/Lion_BMP.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-master.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Move_Pictur/Move_Pictur.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/examples/spi-slave.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Picture/Picture.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/library.json">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Test_Fonts/Test_Fonts.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/src/SPI.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/examples/Test_fonts_8812/Test_fonts_8812.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/SPI/src/SPI.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_10x16.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Inc/font6x8.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_10x20.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Inc/lcd5110.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_12x16_rus.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Inc/lcd5110_hal.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_16x24.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Inc/lcd5110_ll.h">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_16x32.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_1.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_5x5.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_2_geom.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_5x8.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_3_2lcd.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/font_7x15.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/girl.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Samples/main_hw_5_windows.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/lion.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/shark.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110_hal.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/ref/a70_pcf8812-master/ship.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/lib/lcd5110/Src/lcd5110_ll.c">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/src/PCF8812.cpp">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/src/main.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/PCF8812/src/PCF8812.h">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/src/spi.cpp">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/examples/BarometricPressureSensor/BarometricPressureSensor.ino">
 			<Option target="stm-32f103c8"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/CMakeLists.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/examples/DigitalPotControl/DigitalPotControl.ino">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/keywords.txt">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/library.properties">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/SPI/src/SPI.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/ref/pcf8813.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/ref/pcf8813.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/ref/spi.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/ref/spi.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/spi-master.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/examples/spi-slave.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/library.json">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/src/SPI.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/SPI/src/SPI.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/font6x8.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110_hal.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Inc/lcd5110_ll.h">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_1.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_2_geom.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_3_2lcd.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_4_fmt_bmp.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Samples/main_hw_5_windows.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110_hal.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/lib/lcd5110/Src/lcd5110_ll.c">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/src/main.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/src/spi.cpp">
+			<Option target="stm-32f103c8"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/user1/PROJECTS/stm-32f103c8/CMakeListsPrivate.txt">
+		<Unit filename="D:/PROJECTS/pavlenko/stm-32f103c8/CMakeListsPrivate.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

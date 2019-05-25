@@ -2,8 +2,10 @@
 
 #include "stm32f1xx.h"
 //#include "PCD8544.h"
-#include "PCD8544_2.h"
+//#include "PCD8544_2.h"
 //#include "PCD8544_3.h"
+
+#include "PCF8812.h"
 
 volatile uint32_t ticks_delay = 0;
 
@@ -135,6 +137,8 @@ void ClockInit2()
     while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_1); // Ожидание переключения на PLL
 }
 
+
+
 void SPI2_init()
 {
     RCC->APB1ENR |= RCC_APB1ENR_SPI2EN;// Enable clock SPI2
@@ -145,7 +149,7 @@ void SPI2_init()
     GPIOB->CRH &= ~(GPIO_CRH_CNF14 | GPIO_CRH_MODE14);// Reset PB14 (MISO)
     GPIOB->CRH &= ~(GPIO_CRH_CNF15 | GPIO_CRH_MODE15);// Reset PB15 (MOSI)
 
-    GPIOB->CRH |= GPIO_CRH_MODE12_1;                                       // PB12 - CS: MODE = 0x02 (0b10); CNF = 0x00 (0b00)
+    GPIOB->CRH |= GPIO_CRH_MODE12_1 | GPIO_CRH_MODE12_0;                                       // PB12 - CS: MODE = 0x02 (0b10); CNF = 0x00 (0b00)
     GPIOB->CRH |= GPIO_CRH_MODE13_1 | GPIO_CRH_MODE13_0 | GPIO_CRH_CNF13_1;// PB13 - SCK: MODE = 0x03 (0b11); CNF = 0x02 (0b10)
     GPIOB->CRH |= GPIO_CRH_CNF14_1;                                        // PB14 - MISO: MODE = 0x00 (0b00); CNF = 0x01 (0b01)
     GPIOB->CRH |= GPIO_CRH_MODE15_1 | GPIO_CRH_MODE15_0 | GPIO_CRH_CNF15_1;// PB15 - MOSI: MODE = 0x03 (0b11); CNF = 0x02 (0b10)
@@ -184,6 +188,22 @@ uint16_t SPI2_read()
 // PB13 AFO Push-Pull @ 50 МГц (SCK)
 // PB14 AFI Pull-up (MISO)
 // PB15 AFO Push-Pull @ 50 МГц (MOSI)
+
+#define PCF8812_RES_R GPIO_BSRR_BR10
+#define PCF8812_RES_S GPIO_BSRR_BS10
+
+#define PCF8812_DC_R GPIO_BSRR_BR11
+#define PCF8812_DC_S GPIO_BSRR_BS11
+
+#define PCF8812_CS_R GPIO_BSRR_BR12
+#define PCF8812_CS_S GPIO_BSRR_BS12
+
+#define PCF8812_SCK_R GPIO_BSRR_BR13
+#define PCF8812_SCK_S GPIO_BSRR_BS13
+
+#define PCF8812_MOSI_R GPIO_BSRR_BR15
+#define PCF8812_MOSI_S GPIO_BSRR_BS15
+
 /*PCD8544 pcd8544_1 = PCD8544(
         [](){
             GPIOB->BSRR = GPIO_BSRR_BR10;
@@ -195,21 +215,37 @@ uint16_t SPI2_read()
         [](uint8_t data){ SPI2_send((uint16_t) data); }
 );*/
 
-PCD8544_t lcd = {
+PCF8812_t lcd = {
     .reset = [](){
-        GPIOB->BSRR = GPIO_BSRR_BR10;
+        /*GPIOB->BSRR = GPIO_BSRR_BR10;
         volatile int i = 10000;
         while (--i){}
-        GPIOB->BSRR = GPIO_BSRR_BS10;
+        GPIOB->BSRR = GPIO_BSRR_BS10;*/
+
+
+        delay_us(10);                // LCD RESET
+        GPIOB->BSRR = PCF8812_MOSI_R;
+        GPIOB->BSRR = PCF8812_SCK_R;
+        GPIOB->BSRR = PCF8812_DC_R;
+        delay_us(10);                //
+        GPIOB->BSRR = PCF8812_RES_S;//
+        delay_us(10);                //
+        GPIOB->BSRR = PCF8812_CS_R;
+        delay_us(10);                //
+        GPIOB->BSRR = PCF8812_RES_R;
+        delay_us(10);                //
+        GPIOB->BSRR = PCF8812_RES_S;
+        GPIOB->BSRR = PCF8812_CS_S;
+        delay_us(75);
     },
     .write = [](uint8_t mode, uint8_t data){
-        GPIOB->BSRR = GPIO_BSRR_BR12;// Clear CS
+        GPIOB->BSRR = PCF8812_CS_R;// Clear CS
 
-        GPIOB->BSRR = mode ? GPIO_BSRR_BS11 : GPIO_BSRR_BR11;// Set/Clear DC
+        GPIOB->BSRR = mode ? PCF8812_DC_S : PCF8812_DC_R;// Set/Clear DC
 
         SPI2_send((uint16_t) data);
 
-        GPIOB->BSRR = GPIO_BSRR_BS12;// Set CS
+        GPIOB->BSRR = PCF8812_CS_S;// Set CS
     },
 };
 
@@ -254,13 +290,13 @@ int main()
     // Set mode 10
     GPIOC->CRH |= GPIO_CRH_MODE13_1;
 
-    /*GPIOB->CRH &= ~(GPIO_CRH_CNF10|GPIO_CRH_MODE10);
-    GPIOB->CRH |= GPIO_CRH_MODE10_1;
+    GPIOB->CRH &= ~(GPIO_CRH_CNF10|GPIO_CRH_MODE10);
+    GPIOB->CRH |= GPIO_CRH_MODE10_1|GPIO_CRH_MODE10_0;
     GPIOB->BSRR = GPIO_BSRR_BS10;
 
-    GPIOB->BSRR = GPIO_BSRR_BR12;
+    GPIOB->BSRR = GPIO_BSRR_BS12;
 
-    pcd8544_1.initialize();
+    /*pcd8544_1.initialize();
     pcd8544_1.setXY(0, 0);
 
     pcd8544_1.setMode(PCD8544_DC_DATA);
@@ -281,9 +317,9 @@ int main()
 
     GPIOB->BSRR = GPIO_BSRR_BS12;*/
 
-    PCD8544_initialize(&lcd);
-    PCD8544_clear(&lcd);
-    PCD8544_string(&lcd, "HELLO");
+    PCF8812_initialize(&lcd);
+    PCF8812_clear(&lcd);
+    PCF8812_string(&lcd, "HELLO");
 
     /*lcd2.initialize();
     lcd2.clear();
